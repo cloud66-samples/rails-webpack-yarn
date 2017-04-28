@@ -1,0 +1,12 @@
+{
+  "name": "rails-yarn",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "version": "1.0.0",
+  "description": "hey",
+  "main": "index.js",
+  "author": "Babak Gh <babak@cloud66.com>",
+  "license": "MIT"
+}
