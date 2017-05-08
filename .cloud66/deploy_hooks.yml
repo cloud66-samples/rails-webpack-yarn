@@ -1,5 +1,9 @@
 production: # Environment
     first_thing: # Hook point
       - snippet: cloud66/node_7 # Hook type
-        target: any # Hook fields
+        target: rails # Hook fields
+        execute: true
+    after_bundle:
+      - snippet: cloud66/yarn # Hook type
+        target: rails # Hook fields
         execute: true
