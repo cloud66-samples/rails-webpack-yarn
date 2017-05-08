@@ -1,0 +1,5 @@
+production: # Environment
+    first_thing: # Hook point
+      - snippet: cloud66/node_7 # Hook type
+        target: any # Hook fields
+        execute: true
