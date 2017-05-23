@@ -1,5 +1,4 @@
 production:
     rails:
         configuration:
-            operating_system: Ubuntu1404
             ruby_version: 2.4.1
